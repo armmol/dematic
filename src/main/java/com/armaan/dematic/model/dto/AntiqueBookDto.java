@@ -15,7 +15,18 @@ public class AntiqueBookDto extends BookDto {
     @Max(2023)
     private Integer releaseYear;
 
-    //Required for Testing
+    /**
+     * Instantiates a new Antique book dto.
+     *
+     * @param bookType     the book type
+     * @param name         the name
+     * @param author       the author
+     * @param barcode      the barcode
+     * @param quantity     the quantity
+     * @param pricePerUnit the price per unit
+     * @param releaseYear  the release year
+     */
+//Required for Testing
     public AntiqueBookDto(BookType bookType, String name, String author, String barcode,
                           Integer quantity, Double pricePerUnit, Integer releaseYear) {
         super(bookType, name, author, barcode, quantity, pricePerUnit);
@@ -24,6 +35,7 @@ public class AntiqueBookDto extends BookDto {
 
     /**
      * Function to create an Antique Book from DTO object
+     *
      * @return Antique Book Object
      */
     public AntiqueBook toAntiqueBook() {

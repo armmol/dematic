@@ -15,7 +15,18 @@ public class ScienceJournalDto extends BookDto {
     @Min(1)
     private Integer scienceIndex;
 
-    //Required for Testing
+    /**
+     * Instantiates a new Science journal dto.
+     *
+     * @param bookType     the book type
+     * @param name         the name
+     * @param author       the author
+     * @param barcode      the barcode
+     * @param quantity     the quantity
+     * @param pricePerUnit the price per unit
+     * @param scienceIndex the science index
+     */
+//Required for Testing
     public ScienceJournalDto(BookType bookType, String name, String author,
                              String barcode, Integer quantity, Double pricePerUnit, Integer scienceIndex) {
         super(bookType, name, author, barcode, quantity, pricePerUnit);

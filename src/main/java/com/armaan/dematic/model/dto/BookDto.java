@@ -37,7 +37,17 @@ public class BookDto {
     @PositiveOrZero(message = "Price per unit cannot be negative.")
     private Double pricePerUnit;
 
-    //Required for Testing
+    /**
+     * Instantiates a new Book dto.
+     *
+     * @param bookType     the book type
+     * @param name         the name
+     * @param author       the author
+     * @param barcode      the barcode
+     * @param quantity     the quantity
+     * @param pricePerUnit the price per unit
+     */
+//Required for Testing
     public BookDto(BookType bookType, String name, String author, String barcode, Integer quantity, Double pricePerUnit) {
         this.bookType = bookType;
         this.name = name;
@@ -49,6 +59,7 @@ public class BookDto {
 
     /**
      * Function to create a Book from DTO object
+     *
      * @return Book Object
      */
     public Book toBook() {

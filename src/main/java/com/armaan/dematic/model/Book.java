@@ -35,10 +35,25 @@ public class Book {
     @Column(name = "PRICE_PER_UNIT", nullable = false)
     private Double pricePerUnit;
 
+    /**
+     * Gets total price.
+     *
+     * @return the total price
+     */
     public double getTotalPrice() {
         return quantity * pricePerUnit;
     }
 
+    /**
+     * Instantiates a new Book.
+     *
+     * @param bookType     the book type
+     * @param name         the name
+     * @param author       the author
+     * @param barcode      the barcode
+     * @param quantity     the quantity
+     * @param pricePerUnit the price per unit
+     */
     public Book(BookType bookType, String name, String author, String barcode, Integer quantity, Double pricePerUnit) {
         this.bookType = bookType;
         this.name = name;

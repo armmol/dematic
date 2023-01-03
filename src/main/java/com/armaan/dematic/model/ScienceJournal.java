@@ -16,6 +16,17 @@ public class ScienceJournal extends Book {
     @Column(name = "SCIENCE_INDEX")
     private Integer scienceIndex;
 
+    /**
+     * Instantiates a new Science journal.
+     *
+     * @param bookType     the book type
+     * @param name         the name
+     * @param author       the author
+     * @param barcode      the barcode
+     * @param quantity     the quantity
+     * @param pricePerUnit the price per unit
+     * @param scienceIndex the science index
+     */
     public ScienceJournal(BookType bookType, String name, String author, String barcode, Integer quantity, Double pricePerUnit, Integer scienceIndex) {
         super(bookType, name, author, barcode, quantity, pricePerUnit);
         this.scienceIndex = scienceIndex;
