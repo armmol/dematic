@@ -13,6 +13,8 @@ Language - JAVA Project SDK - 17 coretto. Task made as per requirements.
 
 [Thymeleaf](https://www.thymeleaf.org/) for local Database.
 
+[Gradle](https://gradle.org/) build tool.
+
 [Postman](https://www.postman.com/) for API checking.
 
 ## Structure
