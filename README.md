@@ -4,6 +4,8 @@
 CLone repository directly. It is a maven project. Preferred IDE - IntelliJ Idea. Run the DematicApplication.java class to run the project.
 Once Spring server has started, use the postman link attached in your email to play around with the APIs. You can find the JAVA Doc attached in the git repo.
 
+JavaDoc File is optional to open, it can be run with the index.html page to be launched on the browser.
+
 All POST APIs consume application/json contentType. PUT methods do request Params.
 
 Language - JAVA Project SDK - 17 coretto. Task made as per requirements.
