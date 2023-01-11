@@ -13,7 +13,7 @@ Language - JAVA Project SDK - 17 coretto. Task made as per requirements.
 ## Tech Stack
 [Spring](https://spring.io/projects/spring-boot) for backend.
 
-[Thymeleaf](https://www.thymeleaf.org/) for local Database.
+[H2](https://www.h2database.com/) for local Database.
 
 [Gradle](https://gradle.org/) build tool.
 
